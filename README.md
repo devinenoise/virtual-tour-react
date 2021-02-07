@@ -1,6 +1,6 @@
 # Matrix Virtual Tours
 
-A virtual tour website viewable with localhost:3000 using React styled components.
+A virtual tour website viewable with localhost:3000.  Made with React styled components and smooth scroll.
 
 ![Hero](https://github.com/devinenoise/virtual-tour-react/blob/main/src/images/Screenshots/matrix%201a.png)
 
