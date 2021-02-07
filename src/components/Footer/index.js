@@ -1,4 +1,5 @@
 import React from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 import {
   FaInstagram,
   FaLinkedin,
@@ -23,6 +24,10 @@ import {
 } from './FooterElements';
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -63,7 +68,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Matrix Tours</SocialLogo>
+            <SocialLogo to='/' onClick={toggleHome}>
+              Matrix Tours
+            </SocialLogo>
             <WebsiteRights>
               Matrix © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
