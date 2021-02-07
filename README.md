@@ -4,8 +4,8 @@ A virtual tour website viewable with localhost:3000 using React styled component
 
 ![Hero](https://github.com/devinenoise/virtual-tour-react/blob/main/src/images/Screenshots/matrix%201a.png)
 
-![Second](https://your-copied-image-address)
+![Second](https://github.com/devinenoise/virtual-tour-react/blob/main/src/images/Screenshots/matrix%202a.png)
 
-![Services](https://your-copied-image-address)
+![Services](https://github.com/devinenoise/virtual-tour-react/blob/main/src/images/Screenshots/matrix%203a.png)
 
-![Footer](https://your-copied-image-address)
+![Footer](https://github.com/devinenoise/virtual-tour-react/blob/main/src/images/Screenshots/matrix%204a.png)
