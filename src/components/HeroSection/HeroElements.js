@@ -27,7 +27,7 @@ export const HeroContainer = styled.div`
     z-index: 2;
   }
 `;
-
+ 
 export const HeroBg = styled.div`
   position: absolute;
   top: 0;
