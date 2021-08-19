@@ -8,8 +8,16 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/' component={Home} exact />
-        <Route path='/signin' component={SignIn} exact />
+        <Route
+          path='http://devinenoise.github.io/virtual-tour-react/'
+          component={Home}
+          exact
+        />
+        <Route
+          path='http://devinenoise.github.io/virtual-tour-react/signin'
+          component={SignIn}
+          exact
+        />
       </Switch>
     </Router>
   );
